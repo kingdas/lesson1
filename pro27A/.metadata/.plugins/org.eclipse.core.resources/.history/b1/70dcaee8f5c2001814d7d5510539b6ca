@@ -1,0 +1,13 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script>
+		//window.alert("这就是js");//弹出框
+		window.open("http://www.baidu.com", "百度", "top=100,width=360,height=300")
+	</script>
+</body>
+</html>

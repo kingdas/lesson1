@@ -1,0 +1,18 @@
+package com.yc.java004function;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// 方法：先定义，后使用
+		// 定义：方法签名（返回值类型+方法名+参数列表）+方法体｛｝
+
+	}
+
+	int abs(int n) {
+		if (n < 0) {
+			return -1 * n;
+		}
+		return n;// 返回值；方法调用结束
+
+	}
+}

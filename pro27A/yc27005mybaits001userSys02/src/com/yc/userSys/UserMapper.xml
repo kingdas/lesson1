@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yc.userSys.UserDao">
+	<insert id="add" parameterType="com.yc.userSys.UserModel">
+		insert into
+		t_user(name,tel,group_id)values(#{name},#{tel},#{group_id})
+	</insert>
+	<delete id="del" parameterType="int">
+		delete from t_user where id=#{id}
+	</delete>
+	<update id="update" parameterType="com.yc.userSys.UserModel">
+		update t_user set
+		name=#{name},tel=#{tel},group_id=#{group_id} where
+		id=#{id}
+	</update>
+	<select id="findAll" resultType="com.yc.userSys.UserModel">
+		select * from t_user
+	</select>
+	<select id="findById" parameterType="int" resultType="com.yc.userSys.UserModel">
+		select *
+		from t_user where id=#{id}
+	</select>
+</mapper>

@@ -1,0 +1,26 @@
+package com.yc;//包名：解决类同名问题；分门别类
+
+public class TestJava {// 类的定义
+
+	public static void main(String[] args) {// 主方法：程序入口
+		// // alt+/代码提示
+		// System.out.println("hello world");
+		// // ctrl+shift+f 整理代码
+		// // ctrl+f11
+		// /////////////////////
+		// 类名，包名，方法名，变量名---标识符
+		// 标识符:由数字、字母、下划线、$组成；不能以数字开头不能是“关键字”
+		int a;// 定义一个"整型"变量...
+		int b;
+		int c;
+		a = 5;
+		a = 9;
+		b = 8;
+		c = a + b;
+		System.out.println(c);
+
+	}// 方法体
+
+}// 类体
+
+// 注释的三种方法：//行；/*...*/多行;/**...*/文档注释

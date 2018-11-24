@@ -1,0 +1,37 @@
+package com.yc.dynamicProxy1;
+
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		final UserDaoImpl udi = new UserDaoImpl();
+		UserDao ud = MyProxy.getProxy(udi, new MyInvocationHandler() {
+			
+			@Override
+			public Object getRo() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			@Override
+			public void b() {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public void a() {
+				// TODO Auto-generated method stub
+				
+			}
+		});
+		ud.add();
+		//ud.del();
+
+	}
+
+}

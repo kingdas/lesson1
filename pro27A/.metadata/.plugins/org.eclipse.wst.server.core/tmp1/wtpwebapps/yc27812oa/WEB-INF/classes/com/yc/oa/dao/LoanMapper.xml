@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yc.oa.dao.LoanDao">
+
+	<insert id="add" parameterType="com.yc.oa.model.Loan">
+		INSERT INTO
+		loan(id,employeeId,title,amount,applyDate,status) VALUES
+		(#{id},#{employeeId},#{title},#{amount},#{applyDate},#{status});
+	</insert>
+
+	<select id="findByCondition" parameterType="com.yc.oa.model.Loan"
+		resultType="com.yc.oa.model.Loan">
+		select * from loan where employeeId=#{employeeId}
+	</select>
+
+</mapper>

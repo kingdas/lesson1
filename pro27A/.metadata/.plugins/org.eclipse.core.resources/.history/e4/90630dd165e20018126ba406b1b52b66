@@ -1,0 +1,5 @@
+package com.yc.dynamicProxy1;
+
+public class MyInvocationHandler {
+
+}

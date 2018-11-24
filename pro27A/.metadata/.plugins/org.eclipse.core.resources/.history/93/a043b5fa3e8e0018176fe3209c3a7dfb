@@ -1,0 +1,46 @@
+package com.yc.java004function;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// 方法：先定义，后使用
+		// 定义：方法签名（返回值类型+方法名+参数(形参)列表）+方法体｛｝
+		//
+		// Test t=new Test();
+		// int n = t.abs(9);
+		// System.out.println(n);
+		// ////////////////////////////
+		// int n = abs(-8);// 实参
+		// System.out.println(n);
+		// ////////////////////////////
+
+		// int a = 5, b = 8;
+		// System.out.println("a=" + a + ",b=" + b);
+		// change(a, b);
+		// System.out.println("a=" + a + ",b=" + b);
+		// 形参为基本数据类型时，形能的改变不会影响实参
+		// ///////////////////////////////
+		System.out.println(3 + 4 + "java" + 3 + 4);
+
+	}
+
+	static void change(int a, int b) {
+		a = a ^ b;
+		b = a ^ b;
+		a = a ^ b;
+	}
+
+	/**
+	 * 求绝对值
+	 * 
+	 * @param n
+	 *            参数
+	 * @return 返回绝对值
+	 */
+	static int abs(int n) {
+		if (n < 0) {
+			return -1 * n;
+		}
+		return n;// 返回值；方法调用结束
+	}
+}

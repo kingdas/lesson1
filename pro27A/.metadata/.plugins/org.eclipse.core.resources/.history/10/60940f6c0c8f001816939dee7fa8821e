@@ -1,0 +1,31 @@
+package com.yc.java006base2;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// 标识符
+		// 基本数据类型：8种;值类型/引用类型
+		// 形参为基本数据类型时，形参的改变不会影响实参
+		// 形参为引用类型时，“形参”的改变会影响“实参”
+
+		// 整型：
+		byte b;// 1;-128~127
+		short s;// 2
+		int i;// 4
+		long l;// 8
+
+		// 字符类型
+		char c;// 2;0~65535
+
+		// 浮点型
+		float f;
+		double d;
+		// 布尔
+		boolean bln;// true;false;
+		
+		
+		
+
+	}
+
+}

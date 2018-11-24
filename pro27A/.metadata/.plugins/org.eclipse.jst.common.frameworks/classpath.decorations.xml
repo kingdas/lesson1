@@ -1,0 +1,15 @@
+<classpath>
+  <container id="yc27008ssm001base!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="F:/gw27/pro27A/yc27008ssm001base/WebContent/WEB-INF/lib/mybatis-spring-1.2.0.jar">
+      <source-attachment-path>F:/gw27/stu/jar/ibatis/spring-mybatis-spring-1.2.2_src.zip</source-attachment-path>
+    </entry>
+    <entry id="F:/gw27/pro27A/yc27008ssm001base/WebContent/WEB-INF/lib/spring-web-3.2.4.RELEASE.jar">
+      <source-attachment-path>F:/gw27/stu/jar/ssh_mvcI_all/spring-framework-3.0.1.RELEASE-A.zip</source-attachment-path>
+    </entry>
+  </container>
+  <container id="yc27007springMvc001base!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="F:/gw27/pro27A/yc27007springMvc001base/WebContent/WEB-INF/lib/spring-webmvc-3.2.4.RELEASE.jar">
+      <source-attachment-path>F:/gw27/stu/jar/ssh_mvcI_all/spring-framework-3.0.1.RELEASE-A.zip</source-attachment-path>
+    </entry>
+  </container>
+</classpath>

@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script>
+	//window.alert("这就是js");//弹出框
+	//window.open("http://www.baidu.com", "百度", "top=100,width=360,height=300");
+	/* 		for (i = 0; i < 5; i++) {
+	 if (i % 2 == 1) {
+	 document.write("xxx----" + i+"<br/>");
+	 }
+	 }
+	 */
+
+	function x(id) {
+		return id + 1;
+	}
+	//document.write(x(5));
+	function checkName() {
+		var name = document.getElementById("name");//取得页面中id为name标签
+		alert(name.value);
+	}
+</script>
+</head>
+<body>
+	<input type="text" name="username" id="name" onblur="checkName()" />
+	<a href="#" onclick="checkName()" >点点看</a>
+</body>
+</html>

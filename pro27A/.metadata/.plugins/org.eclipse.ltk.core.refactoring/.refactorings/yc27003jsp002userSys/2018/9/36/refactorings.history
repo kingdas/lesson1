@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;reqScope.jsp&apos; to &apos;reqScope.jsp&apos;&#x0D;&#x0A;- Original project: &apos;yc27003jsp002userSys&apos;&#x0D;&#x0A;- Destination element: &apos;reqScope.jsp&apos;&#x0D;&#x0A;- Original element: &apos;reqScope.jsp&apos;" description="Copy file" element1="WebContent/reqScope.jsp" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1535940002756" target="/yc27003jsp002userSys/WebContent/reqScope.jsp" units="0" version="1.0"/>
+</session>
