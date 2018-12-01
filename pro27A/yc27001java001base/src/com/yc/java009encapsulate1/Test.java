@@ -10,9 +10,7 @@ public class Test {
 		d = new Dog();// 由类实例化对象
 		//d.name = "xx";
 		// d.age = 3;
-		// d.a = 22;
-		
-		
+		// d.a = 22;			
 
 	}
 

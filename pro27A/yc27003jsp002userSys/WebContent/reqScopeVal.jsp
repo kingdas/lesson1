@@ -21,8 +21,8 @@
 		<c:if test="${i%2==0 }">
 			<c:set var="c" value="color='#${i}0${i}0${i}0'" />
 		</c:if>
-		<hr size="${i}" ${c}/>
-	</c:forEach>
+		<hr size="${i}" ${c} />
+	</c:forEach> 
 	<hr />
 	<c:if test="${us!=null }">
 		<c:forEach items="${us }" var="u">

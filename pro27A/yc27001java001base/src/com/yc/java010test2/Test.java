@@ -67,7 +67,5 @@ public class Test {
 			System.out.println(i + "," + j + "," + k);
 		}
 		System.out.println(c);// 21
-
 	}
-
 }

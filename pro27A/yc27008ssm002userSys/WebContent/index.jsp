@@ -10,7 +10,5 @@
 	<script type="text/javascript">
 		location.href = "${pageContext.request.contextPath}/user/list";
 	</script>
-	
-	
 </body>
 </html>

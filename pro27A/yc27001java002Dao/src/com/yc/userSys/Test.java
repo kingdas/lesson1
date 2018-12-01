@@ -23,5 +23,4 @@ public class Test {
 				UserModel.class);
 		System.out.println(us);
 	}
-
 }

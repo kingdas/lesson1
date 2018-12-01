@@ -156,7 +156,5 @@ public class Test {
 			Entry<String, Integer> s = it.next();
 			System.out.println(s.getKey() + ":" + s.getValue());
 		}
-
 	}
-
 }

@@ -20,6 +20,7 @@ public class Cat {
 		a = 5;
 		System.out.println("**");
 	}
+
 	static {// ¾²Ì¬´úÂë¶Î
 		System.out.println("%%%");
 	}

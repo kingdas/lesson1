@@ -12,13 +12,6 @@ public class Test {
 		// System.out.println(new A());
 		// //////////////////////////////
 		
-		
-		
-		
-		
-		
-		
-		
 		try {
 			Class cls = Class.forName("com.yc.java020reflect.A");
 			Object o = cls.newInstance();
@@ -48,7 +41,5 @@ public class Test {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-
 	}
-
 }
